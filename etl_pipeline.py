@@ -8,7 +8,7 @@ import os
 warnings.filterwarnings('ignore')
 
 class ETLPipeline:
-    def __init__(self, db_path='healthcare_data.db'):
+    def __init__(self, db_path='retail_data.db'):
         self.db_path = db_path
         self.conn = None
         self.cursor = None

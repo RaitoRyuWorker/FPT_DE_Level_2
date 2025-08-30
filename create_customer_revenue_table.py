@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd
 
 def create_customer_revenue_table():
-    conn = sqlite3.connect('healthcare_data.db')
+    conn = sqlite3.connect('retail_data.db')
     cursor = conn.cursor()
     
     print("Creating customer_revenue table...")
